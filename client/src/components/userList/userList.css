@@ -1,0 +1,56 @@
+.data{
+    border:5px solid rgb(170, 170, 170);
+    /* width: 25rem; */
+    width: 22rem;
+    height:auto;
+    border-radius: 5px;
+    background-color: rgb(0, 9, 7);
+    color: white;
+}
+.styles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.hedding{
+    text-align: center;
+    margin-top: 2%;
+    padding: 5px;
+}
+.gold-color{
+    color: gold;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(244, 249, 253, 0.168);
+}
+.icon span{
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+}
+.data-div{
+    padding: 20px
+}
+
+.icon .hover-icon:hover{
+   cursor: pointer;
+   background-color: gold;
+
+}
+.A{
+    background-color: red;
+    height: 40vh;
+    border: 2px solid red;
+    width: 22rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
